@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/psi.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ℙ𝕤𝕚 𝔸𝕀</title>
+    <link rel="stylesheet" href="Prometheus.css">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+          <button id="goback" class="button" onclick="location.href='/'">
+            <img src="/left-arrow.png" alt="goback" />
+          </button>
+          <button id="open-avatar-creator">【Ｃｕｓｔｏｍｉｚｅ　Ｍｙ　ＡＩ】</button>
+          <button id="toggle-chat-btn">Open Chat</button>
+          <div id="chat-container" style="display: none;">
+            <div id="chat-window">
+              <div id="messages"></div>
+            </div>
+            <form id="chat-form">
+              <input type="text" id="chat-input" placeholder="What's on your mind..." autocomplete="off" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+      </div>
+    </header>
+    <canvas id="three-canvas"></canvas>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <script type="module" src="./Prometheus.js"></script>
+  </body>
+</html>
