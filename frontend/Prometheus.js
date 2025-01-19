@@ -14,7 +14,7 @@ loader.setDRACOLoader(dracoLoader);
 
 // OpenAI API setup
 let conversationHistory = [];
-const openaiApiKey = 'your api key';
+const openaiApiKey = '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';
 const openaiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
 const audDApiKey = '2eb1b972883c81272d97bff25bdf07d0';
