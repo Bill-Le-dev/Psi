@@ -112,7 +112,7 @@ const Actions = ({ post }) => {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
-					'Authorization': `Bearer ${'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'}`
+					'Authorization': `Bearer ${'your Api key'}`
 				},
 				body: JSON.stringify({
 					model: 'gpt-3.5-turbo',
