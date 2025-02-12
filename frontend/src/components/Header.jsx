@@ -67,6 +67,11 @@ const Header = () => {
 							</svg>
 						</a>
 					)}
+					{user && (
+						<a href="../../PsiConnect.html">
+							<BsFillChatQuoteFill size={20} />
+						</a>
+					)}
 					<Link as={RouterLink} to={`/settings`}>
 						<MdOutlineSettings size={20} />
 					</Link>

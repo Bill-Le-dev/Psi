@@ -116,7 +116,7 @@ const Actions = ({ post }) => {
 				},
 				body: JSON.stringify({
 					model: 'gpt-3.5-turbo',
-					messages: [{ role: 'user', content: prompt }],
+					messages: [{ role: 'user', content: "This is a post made by a user. Your job is to check for misimformation and give your thoughts on the subject"+prompt }],
 				})
 			});
 			const data = await response.json();
